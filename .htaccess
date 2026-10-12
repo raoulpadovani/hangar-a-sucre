@@ -1,0 +1,8 @@
+<IfModule php_module>
+    php_value upload_max_filesize 100M
+    php_value post_max_size 105M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>
+
+ErrorDocument 404 /404.php
